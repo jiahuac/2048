@@ -172,7 +172,7 @@ public class Grid
         // Prints the gameGrid, testing toString. Expected - for all:
         System.out.println(gameGrid);
         
-        System.out.print("Tile at 2,2,2: ");
+        System.out.print("Tile at 2,2,2 getTile: ");
         // Tries to get the tile at location 2,2,2
         System.out.println(gameGrid.getTile(new Loc(2,2,2)));
         
@@ -181,7 +181,7 @@ public class Grid
         
         System.out.println("gameGrid toString: ");
         // Prints the gameGrid, testing toString. Expected - for all:
-        // except a 2^3 = 8 at the lower corner (3,3,3) position
+        // except a 2^3 = 8 at the lower r corner (3,3,3) position
         // (as arrays start at 0, so 2,2,2 really references the 3,3,3 pos)
         System.out.println(gameGrid);
 
